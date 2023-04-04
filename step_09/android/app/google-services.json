@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1027923032857",
+    "project_id": "smarthome-vize-30120104",
+    "storage_bucket": "smarthome-vize-30120104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027923032857:android:9f31e28a3e8acc2ad46388",
+        "android_client_info": {
+          "package_name": "com.example.gtk_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027923032857-puu300n35npllluqkgjvl80nkifmh1rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaocwafLmSVUQYIGgm5RyPN8cW4xftPZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027923032857-m8u202q9qi3mv389fq0t7mlveqf12aiu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1027923032857-256nkh7sfjm6j03euiinhoehnpni8d9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gtkFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

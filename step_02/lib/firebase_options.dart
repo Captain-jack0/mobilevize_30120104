@@ -45,17 +45,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCIKsHfZ7xLHbYnpszUdbGPbsSTz82IO5o',
-    appId: '1:1027923032857:web:21c29dc281d402e7d46388',
+    appId: '1:1027923032857:web:761d8521a2549eeed46388',
     messagingSenderId: '1027923032857',
     projectId: 'smarthome-vize-30120104',
     authDomain: 'smarthome-vize-30120104.firebaseapp.com',
     storageBucket: 'smarthome-vize-30120104.appspot.com',
-    measurementId: 'G-MLMHDJ6XVT',
+    measurementId: 'G-KXCBZ2X83E',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBaocwafLmSVUQYIGgm5RyPN8cW4xftPZA',
-    appId: '1:1027923032857:android:9f31e28a3e8acc2ad46388',
+    appId: '1:1027923032857:android:b0899e572a490df3d46388',
     messagingSenderId: '1027923032857',
     projectId: 'smarthome-vize-30120104',
     storageBucket: 'smarthome-vize-30120104.appspot.com',
@@ -63,7 +63,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBPdNRjsY7v5uCw0jQ9apPAb4FwxMm4Hn4',
-    appId: '1:1027923032857:ios:a9f4204aa5cce993d46388',
+    appId: '1:1027923032857:ios:c7aaf1502ece10ead46388',
     messagingSenderId: '1027923032857',
     projectId: 'smarthome-vize-30120104',
     storageBucket: 'smarthome-vize-30120104.appspot.com',
@@ -73,7 +73,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBPdNRjsY7v5uCw0jQ9apPAb4FwxMm4Hn4',
-    appId: '1:1027923032857:ios:a9f4204aa5cce993d46388',
+    appId: '1:1027923032857:ios:c7aaf1502ece10ead46388',
     messagingSenderId: '1027923032857',
     projectId: 'smarthome-vize-30120104',
     storageBucket: 'smarthome-vize-30120104.appspot.com',
