@@ -5,6 +5,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:gtk_flutter/attend.dart';
 
 import 'guest_book_message.dart';
 import 'src/widgets.dart';
@@ -76,6 +77,12 @@ class _GuestBookState extends State<GuestBook> {
         for (var message in widget.messages)
           Paragraph('${message.name}: ${message.message}'),
         const SizedBox(height: 8),
+        Row(
+          children: [
+            Text('Attend '),
+            Attend(),
+          ],
+        ),
       ],
     );
   }
