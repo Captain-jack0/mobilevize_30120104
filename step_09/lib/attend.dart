@@ -18,10 +18,11 @@ class _AttendState extends State<Attend> {
         MaterialState.hovered,
         MaterialState.focused,
       };
-      if (states.any(interactiveStates.contains)) {
-        return Colors.blue;
+      if (states.any(interactiveStates.contains) == true) {
+        return Color.fromARGB(255, 243, 33, 33);
+      } else {
+        return Color.fromARGB(255, 45, 141, 251);
       }
-      return Color.fromARGB(255, 7, 7, 7);
     }
 
     return Checkbox(
@@ -30,7 +31,11 @@ class _AttendState extends State<Attend> {
       value: isChecked,
       onChanged: (bool? value) {
         setState(() {
-          isChecked = value!;
+          if (isChecked) {
+            isChecked = value!;
+          } else {
+            isChecked = true;
+          }
         });
       },
     );
